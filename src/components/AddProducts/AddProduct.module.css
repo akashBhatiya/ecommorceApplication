@@ -1,0 +1,14 @@
+
+label{
+    display: inline-block;
+    min-width:200px;
+}
+
+.inputContainer{
+    margin-left:0;
+}
+
+.inputContainer input, .inputContainer button{
+    padding:10px 20px;
+    margin: 0.5rem 1rem;
+}

@@ -1,0 +1,28 @@
+.notFoundConatainer{
+    width: 100vw;
+    height: 80vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.notFoundConatainer h1{
+    font-weight: 600 ;
+    margin: 0.3rem 0;
+}
+
+.notFoundConatainer p{
+    font-size: 0.9rem;
+    margin: 0.3rem 0;
+}
+
+.notFoundConatainer button{
+    margin: 0.5rem;
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}

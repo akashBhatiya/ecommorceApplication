@@ -1,0 +1,96 @@
+.productContainer{
+    max-width:100vw;
+}
+
+.product{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    margin-top: 2rem;
+}
+
+.product > div{
+    width: 40%;
+
+    @media (max-width: 800px) {
+        width: 100%;
+    }
+}
+
+.productImageContainer{
+    text-align: center;
+}
+
+.productImage{
+    width: 60%;
+}
+
+
+.productDetailContainer{
+    padding: 1rem 3rem;
+}
+
+.productTitle{
+    font-weight: 500;
+    font-size: 2.2rem;
+    margin-bottom: 1.2rem;
+}
+
+.productDesc{
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+    text-align: justify;
+}
+
+.mrp{
+    color: grey;
+    text-decoration: line-through;
+    font-size: 1.3rem;
+}
+
+.price{
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: rgb(255, 64, 0);
+}
+
+.priceContainer{
+    margin-bottom: 1.2rem;
+}
+
+.sideText{
+    font-size: 0.9rem;
+}
+
+.truck{
+    position: relative;
+    font-size: 1.2rem;
+    top: 3px;
+}
+
+.dot{
+    font-size: 0.6rem;
+    margin-right: 0.5rem;
+    margin-left: 0.2rem;
+    color: rgb(16, 198, 16);
+}
+
+.productDetailContainer button{
+    width: 400px;
+    margin-top: 1.2rem ;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.addToCart{
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.buyNow{
+    color:white;
+    background-color: black;
+}
